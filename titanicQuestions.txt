@@ -1,0 +1,57 @@
+Project 1: Titanic Dataset – 50 Questions
+Beginner Level (1–15)
+
+1. Dataset ko load karo aur first 10 rows dekho.
+2. Dataset ke last 10 rows dekho.
+3. Dataset ka shape aur column names check karo.
+4. Column data types ka summary dekho.
+5. Missing values identify karo.
+6. Age column ke missing values ko median se fill karo.
+7. Embarked column ke missing values ko mode se fill karo.
+8. Duplicate rows check karo aur remove karo.
+9. Count of male vs female passengers nikalna.
+10. Count of survived vs not survived passengers.
+11. Minimum, maximum, average, median Age nikalna.
+12. Minimum, maximum, average, median Fare nikalna.
+13. First class, second class, third class passengers ka count nikalna.
+14. Children passengers (Age < 18) ko filter karo.
+15. Female passengers jo survive hui, unko filter karo.
+
+Intermediate Level (16–35)
+16. Male passengers ka survival rate calculate karo.
+17. Female passengers ka survival rate calculate karo.
+18. Age ke hisaab se ascending order me dataframe sort karo.
+19. Fare ke hisaab se descending order me dataframe sort karo.
+20. Top 5 oldest passengers nikalna.
+21. Top 5 richest passengers nikalna (Fare ke hisaab se).
+22. Passengers ka average age calculate karo using NumPy array.
+23. Passengers ka median age calculate karo using NumPy array.
+24. Standard deviation of Age using NumPy array.
+25. Fare column ka mean, median, std calculate using NumPy.
+26. Boolean indexing use karke Age > 30 filter karo.
+27. Survived passengers ka average Fare calculate karo.
+28. Children, Adult, Old age groups create karo aur unka survival count calculate karo.
+29. Class-wise survival rate calculate karo.
+30. Gender + Class ke combination ke survival rate nikalna.
+31. Pclass aur Embarked ke hisaab se average Fare calculate karo.
+32. Cabin column me missing values ka count nikalna.
+33. Family size column create karo (SibSp + Parch).
+34. Alone passengers ka filter karo (Family size = 0).
+35. Ticket column ka unique values count karo.
+
+Advanced / Industry Level (36–50)
+36. Age column ke nan values ke liye interpolation use karo.
+37. Fare ke outliers identify karo (IQR method).
+38. Survived passengers ka Fare distribution visualize karo (Matplotlib/Seaborn).
+39. Age distribution visualize karo.
+40. Gender ke hisaab se Age ka boxplot banao.
+41. Pclass ke hisaab se Fare ka boxplot banao.
+42. Correlation matrix nikal kar heatmap visualize karo.
+43. Female passengers jo first class me thi aur survive hui, unko visualize karo.
+44. Male passengers jo second class me the aur survive nahi hue, filter karo.
+45. New column “Fare_per_person” create karo (Fare / Family size).
+46. Age aur Fare ka scatter plot banao.
+47. Age groups ka survival comparison visualize karo.
+48. Embarked ke hisaab se survival comparison visualize karo.
+49. Multi-condition filter: Female, Age < 25, Pclass = 1, Survived = 1.
+50. Dataset ko clean aur ready karo for ML (feature selection + encoding)
